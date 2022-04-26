@@ -15,7 +15,7 @@ export default function Layout({ children }) {
           Toto Wolf
         </button>
       </div>
-      <main className="h-[47rem]">{children}</main>
+      <main className="h-47rem">{children}</main>
     </div>
   );
 }

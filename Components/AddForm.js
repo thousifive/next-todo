@@ -56,7 +56,7 @@ function AddForm({
     <div className="h-full w-full">
       {formActive ? (
         <form onSubmit={addTodoItem} className="h-full w-full">
-          <div className="bg-white h-[45rem] w-full rounded shadow-lg p-4">
+          <div className="bg-white h-45rem w-full rounded shadow-lg p-4">
             <div className="flex flex-row w-full justify-between">
               <h1 className="text-xl text-blue-500">
                 {editFormActive ? "Edit todo" : "Add todo"}

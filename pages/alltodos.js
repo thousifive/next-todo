@@ -62,7 +62,7 @@ export default function Alltodos({ homeActive, setHomeActive }) {
 
   return (
     <div className="flex h-full">
-      <div className="container rounded h-full flex flex-col items-center self-center">
+      <div className="container rounded h-full flex flex-col items-center">
         <div
           id="react-table"
           className="bg-[#ffffff] mt-14 ml-64 border-gray-200 w-8/12 rounded-lg shadow-lg overflow-hidden"
