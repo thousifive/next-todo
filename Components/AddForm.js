@@ -126,7 +126,7 @@ function AddForm({
               </button>
             </div>
             {editFormActive ? (
-              <div className="flex flex=col justify-end mt-4">
+              <div className="flex justify-end mt-4">
                 <button
                   className="bg-[#b338ff] hover:bg-purple-700 text-white py-2 px-4 rounded"
                   onClick={deleteTodo}
@@ -136,7 +136,7 @@ function AddForm({
               </div>
             ) : null}
             {editFormActive ? (
-              <div className="flex flex=col justify-end mt-4">
+              <div className="flex justify-end mt-4">
                 <button
                   className="bg-[#b338ff] hover:bg-purple-700 text-white py-2 px-4 rounded  "
                   onClick={deleteTodo}

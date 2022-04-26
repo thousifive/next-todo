@@ -28,7 +28,7 @@ html {
   background-color: #ffffff;
 }
 
-.bg-gray {
+.bg-gray-200 {
   background-color: #E5E7EB;
 }
 
@@ -48,6 +48,14 @@ input:focus {
 
 .border-2 {
   border-width: 2px;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 /* body {
